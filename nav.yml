@@ -1,0 +1,56 @@
+nav:
+
+  - 快速上手:
+      - Overview: index.md
+      - 核心概念: getting-started/intro/core-concept.md
+      - 快速上手:
+          - Overview: getting-started/quick-start/quick-start.md
+          - Kubernetes环境: getting-started/quick-start/kubernetes.md
+          - 主机环境: getting-started/quick-start/node.md
+      - 部署:
+          - Kubernetes部署: getting-started/install/kubernetes.md
+          - 主机部署: getting-started/install/node.md
+
+  - 用户指南:
+      - Overview: user-guide/index.md
+      - 基础设施监控:
+        - 主机: user-guide/front/monitor/host.md
+        - 进程: user-guide/front/monitor/process.md
+      - 采集器管控:
+          - 采集器管理: user-guide/front/collector/collector-list.md
+          - 进程管理: user-guide/front/collector/process-list.md
+          - 配置管理: user-guide/front/collector/config.md
+      - 系统设置:
+        - 用户管理: user-guide/front/setting/user.md
+        - 角色管理: user-guide/front/setting/role.md
+        - 部门管理: user-guide/front/setting/dep.md
+        - 菜单管理: user-guide/front/setting/menu.md
+
+  - 组件配置:
+      - Overview: reference/index.md
+      - NovaAgent:
+          - 简介: reference/nova-agent/index.md
+          - 构建: reference/nova-agent/build.md
+          - 配置: reference/nova-agent/config.md
+          - 数据上报:
+              - 简介: reference/nova-agent/report/index.md
+              - cgroup: reference/nova-agent/report/cgroup.md
+              - cpu: reference/nova-agent/report/cpu.md
+              - 磁盘: reference/nova-agent/report/disk.md
+              - 容器: reference/nova-agent/report/docker.md
+              - gpu: reference/nova-agent/report/gpu.md
+              - 内存: reference/nova-agent/report/memory.md
+              - 网络: reference/nova-agent/report/network.md
+              - 进程: reference/nova-agent/report/process.md
+      - NovaServer:
+          - 简介: reference/nova-server/overview.md
+          - 构建: reference/nova-server/build.md
+          - 配置: reference/nova-server/config.md
+          - grpc: reference/nova-server/grpc.md
+
+  - 开发手册:
+      - golang代码规范:  developer-guide/code/coding-guide.md
+      - 代码贡献: developer-guide/contributing.md
+      - golang本地开发: developer-guide/development.md
+      - c++开发: developer-guide/cpp-development.md
+      - 版本发布流程: developer-guide/release.md
