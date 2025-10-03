@@ -1,0 +1,9 @@
+nav:
+
+  - 用户指南:
+      - Overview: index.md
+      - 系统监控:
+          - 在线用户: getting-started/monitor/online_user.md
+          - 服务监控: getting-started/monitor/service.md
+      - 系统管理:
+          - 用户管理: getting-started/system/user.md

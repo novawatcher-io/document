@@ -1,0 +1,93 @@
+INHERIT: nav.yml
+
+site_name: ' '
+repo_url: https://github.com/orgs/novawatcher-io/repositories
+repo_name: novawatcher-io
+site_description: Nova Documentation
+extra_css:
+  - stylesheets/extra.css
+edit_uri: https://github.com/novawatcher-io/document/
+
+theme:
+  name: material
+  language: zh
+  logo: assets/nova.svg
+  favicon: assets/min-logo.png
+  custom_dir: overrides
+  icon:
+    repo: fontawesome/brands/github
+
+  font:
+    code: Robot Mono
+  features:
+    - content.code.annotate
+    - content.tabs.link
+    # - navigation.indexes
+    - navigation.instant
+    - navigation.sections
+    - search.highlight
+    - search.share
+    - search.suggest
+    - navigation.tabs
+    - navigation.tracking
+    - navigation.tabs.sticky
+    - navigation.top
+    - content.code.copy
+    - content.action.edit
+
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid-experimental
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+copyright: Copyright &copy; 2024 nova.io
+
+extra:
+  version:
+    provider: mike
+
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/novawatcher-io
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/r/novawatcher-io
+
+  alternate:
+    - name: English
+      link: https://novawatcher-io.github.io/docs-en/
+      lang: en
