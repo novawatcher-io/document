@@ -7,3 +7,6 @@ nav:
           - 服务监控: getting-started/monitor/service.md
       - 系统管理:
           - 用户管理: getting-started/system/user.md
+          - 角色管理: getting-started/system/role.md
+          - 权限名称: getting-started/system/permission.md
+          - 部门管理: getting-started/system/dept.md
