@@ -10,3 +10,26 @@
 ## 部门新增
 
 点击新增部门按钮，填写表单添加部门
+
+![add_dept](/assets/img/system/dept/add_dept.png)
+
+填写表单，保存数据
+
+![add_dept_form](/assets/img/system/dept/add_dept_form.png)
+
+
+## 部门修改
+
+点击部门修改按钮，填写表单修改部门
+
+![update_dept](/assets/img/system/dept/update_dept.png)
+
+填写表单，保存数据
+
+![update_dept_form](/assets/img/system/dept/update_dept_form.png)
+
+## 部门删除
+
+点击删除按钮，删除部门数据
+
+![del_dept](/assets/img/system/dept/del_dept.png)

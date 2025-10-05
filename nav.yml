@@ -10,3 +10,5 @@ nav:
           - 角色管理: getting-started/system/role.md
           - 权限名称: getting-started/system/permission.md
           - 部门管理: getting-started/system/dept.md
+          - 岗位管理: getting-started/system/post.md
+          - 字典管理: getting-started/system/dict.md
