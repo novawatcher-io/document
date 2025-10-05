@@ -12,3 +12,6 @@ nav:
           - 部门管理: getting-started/system/dept.md
           - 岗位管理: getting-started/system/post.md
           - 字典管理: getting-started/system/dict.md
+          - 通知公告: getting-started/system/notice.md
+          - 操作日志: getting-started/system/log.md
+          - 登录日志: getting-started/system/login_log.md
