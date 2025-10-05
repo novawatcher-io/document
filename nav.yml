@@ -1,17 +1,18 @@
 nav:
-
   - 用户指南:
       - Overview: index.md
+      - 仪表盘管理:
+        - 仪表盘列表: getting-started/dashboard/index.md
       - 系统监控:
-          - 在线用户: getting-started/monitor/online_user.md
-          - 服务监控: getting-started/monitor/service.md
+        - 在线用户: getting-started/monitor/online_user.md
+        - 服务监控: getting-started/monitor/service.md
       - 系统管理:
-          - 用户管理: getting-started/system/user.md
-          - 角色管理: getting-started/system/role.md
-          - 权限名称: getting-started/system/permission.md
-          - 部门管理: getting-started/system/dept.md
-          - 岗位管理: getting-started/system/post.md
-          - 字典管理: getting-started/system/dict.md
-          - 通知公告: getting-started/system/notice.md
-          - 操作日志: getting-started/system/log.md
-          - 登录日志: getting-started/system/login_log.md
+        - 用户管理: getting-started/system/user.md
+        - 角色管理: getting-started/system/role.md
+        - 权限名称: getting-started/system/permission.md
+        - 部门管理: getting-started/system/dept.md
+        - 岗位管理: getting-started/system/post.md
+        - 字典管理: getting-started/system/dict.md
+        - 通知公告: getting-started/system/notice.md
+        - 操作日志: getting-started/system/log.md
+        - 登录日志: getting-started/system/login_log.md
