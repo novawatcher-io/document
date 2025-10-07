@@ -3,6 +3,7 @@ nav:
       - Overview: index.md
       - 仪表盘管理:
         - 仪表盘列表: getting-started/dashboard/index.md
+        - 仪表盘明细: getting-started/dashboard/data.md
       - 系统监控:
         - 在线用户: getting-started/monitor/online_user.md
         - 服务监控: getting-started/monitor/service.md
