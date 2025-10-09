@@ -2,7 +2,7 @@
 
 在物联网控制台的左侧导航栏，选择资产管理 > 设备管理，单击添加脱流机，为温湿度传感器添加一个设备，如下图所示。
 
-## 设备管理
+## 搜索设备列表
 
 进入设备列表界面，搜索设备列表数据
 
@@ -36,3 +36,15 @@
 填写表单，保存数据，添加设备
 
 ![add_device_form](/assets/img/assets/device/add_device_form.png)
+
+## 修改设备
+
+在设备管理中，点击修改设备
+
+![update_device](/assets/img/assets/device/update_device.png)
+
+## 删除设备
+
+在设备管理中，点击删除按钮，删除设备
+
+![delete_device](/assets/img/assets/device/delete_device.png)
