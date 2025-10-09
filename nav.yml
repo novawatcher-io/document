@@ -1,6 +1,14 @@
 nav:
   - 用户指南:
       - Overview: index.md
+      - 告警管理:
+        - 告警策略: getting-started/notice/rule.md
+        - 告警治理: getting-started/notice/data.md
+        - 告警客户端配置: getting-started/notice/template.md
+        - 告警通知: getting-started/notice/notify.md
+        - 告警AI推理: getting-started/notice/ai.md
+      - 网关管理:
+        - agent管理: getting-started/gateway/agent.md
       - 资产管理:
         - 设备管理: getting-started/assets/device.md
         - 设备分组: getting-started/assets/device_group.md
