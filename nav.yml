@@ -2,7 +2,10 @@ nav:
   - 用户指南:
       - Overview: index.md
       - 工业智能体:
-        - 知识库: getting-started/ai/dataset/index.md
+        - 模型知识库: getting-started/ai/dataset/index.md
+        - 工业智能助理: getting-started/ai/dataset/assistant.md
+        - 知识搜索: getting-started/ai/dataset/search.md
+        - 智能体agent: getting-started/ai/dataset/agent.md
         - 智能预警: getting-started/ai/prediction/index.md
         - 异常预警: getting-started/ai/exception/index.md
         - 预测控制: getting-started/ai/control/index.md
