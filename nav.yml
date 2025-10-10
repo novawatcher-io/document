@@ -1,6 +1,17 @@
 nav:
   - 用户指南:
       - Overview: index.md
+      - 工业智能体:
+        - 知识库: getting-started/ai/dataset/index.md
+        - 智能预警: getting-started/ai/prediction/index.md
+        - 异常预警: getting-started/ai/exception/index.md
+        - 预测控制: getting-started/ai/control/index.md
+      - 调度管理:
+        - 调度流程: getting-started/schedule/index.md
+        - 调度任务: getting-started/schedule/data.md
+      - 设备接入:
+        - 设备监控: getting-started/device/index.md
+        - 设备数据: getting-started/device/data.md
       - 告警管理:
         - 告警策略: getting-started/notice/rule.md
         - 告警治理: getting-started/notice/data.md
