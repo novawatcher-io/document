@@ -6,8 +6,8 @@
 
 1.在 操作开放平台 的 开发者后台 单击左侧系统管理的 操作日志，进入到 操作日志 页面。
 
-![op_log](/assets/img/system/op_log/op_log.png)
+![op_log](/doc/assets/img/system/op_log/op_log.png)
 
 2.在操作日志页面展示了操作日志列表。操作日志列表包含操作日期、操作用户 IP、执行状态、操作类型 和操作内容。
 
-![op_log_list](/assets/img/system/op_log/op_log_list.png)
+![op_log_list](/doc/assets/img/system/op_log/op_log_list.png)

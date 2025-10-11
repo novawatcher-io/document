@@ -36,20 +36,20 @@
 
 点击新增按钮，唤起告警策略表单
 
-![add_alert_rule](/assets/img/alert/add_alert_rule.png)
+![add_alert_rule](/doc/assets/img/alert/add_alert_rule.png)
 
 填写表单，点击新增按钮
 
-![add_alert_rule_form](/assets/img/alert/add_alert_rule_form.png)
+![add_alert_rule_form](/doc/assets/img/alert/add_alert_rule_form.png)
 
 ## 修改告警策略
 
 点击修改按钮修改告警策略
 
-![update_alert_rule](/assets/img/alert/update_alert_rule.png)
+![update_alert_rule](/doc/assets/img/alert/update_alert_rule.png)
 
 ## 删除告警策略
 
 点击修改按钮删除告警策略
 
-![delete_alert_rule](/assets/img/alert/delete_alert_rule.png)
+![delete_alert_rule](/doc/assets/img/alert/delete_alert_rule.png)

@@ -21,25 +21,25 @@
 特殊日程：在特殊的日期让设备运行指定模式。（注：特殊日程拥有最高优先级，优先运动特殊日程）循环日程：选择指定周期让设备以此模式持续运动。（例如：选择周一 8:00-13:30 运行低速模式，除特殊日程外每周一都会以此模式运动）
 创建日程：
 
-![create_schedule](/assets/img/schedule/create_schedule.png)
+![create_schedule](/doc/assets/img/schedule/create_schedule.png)
 
 
 点击月份切换按钮，上个月、下个月、今天 切换不同月份的每天调度情况
 
-![change_month](/assets/img/schedule/change_month.png)
+![change_month](/doc/assets/img/schedule/change_month.png)
 
 填写表单创建日程,创建循环日程
 
-![save_daily_schedule](/assets/img/schedule/save_daily_schedule.png)
+![save_daily_schedule](/doc/assets/img/schedule/save_daily_schedule.png)
 
 填写表单创建日程,创建特殊日程
 
-![save_daily_schedule](/assets/img/schedule/save_daily_schedule.png)
+![save_daily_schedule](/doc/assets/img/schedule/save_daily_schedule.png)
 
 创建完成日程以后,在列表里显示调度任务
 
-![day_list](/assets/img/schedule/day_list.png)
+![day_list](/doc/assets/img/schedule/day_list.png)
 
 点击全部日程可以查看，查看全部的日程列表
 
-![all_day](/assets/img/schedule/all_day.png)
+![all_day](/doc/assets/img/schedule/all_day.png)

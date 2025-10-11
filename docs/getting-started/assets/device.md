@@ -6,14 +6,14 @@
 
 进入设备列表界面，搜索设备列表数据
 
-![search_device](/assets/img/assets/device/search_device.png)
+![search_device](/doc/assets/img/doc/assets/device/search_device.png)
 
 
 ## 创建设备
 
 单击新增按钮添加设备。
 
-![add_device](/assets/img/assets/device/add_device.png)
+![add_device](/doc/assets/img/doc/assets/device/add_device.png)
 
 
 填写表单:
@@ -35,16 +35,16 @@
 
 填写表单，保存数据，添加设备
 
-![add_device_form](/assets/img/assets/device/add_device_form.png)
+![add_device_form](/doc/assets/img/doc/assets/device/add_device_form.png)
 
 ## 修改设备
 
 在设备管理中，点击修改设备
 
-![update_device](/assets/img/assets/device/update_device.png)
+![update_device](/doc/assets/img/doc/assets/device/update_device.png)
 
 ## 删除设备
 
 在设备管理中，点击删除按钮，删除设备
 
-![delete_device](/assets/img/assets/device/delete_device.png)
+![delete_device](/doc/assets/img/doc/assets/device/delete_device.png)

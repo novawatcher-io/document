@@ -6,15 +6,15 @@
 
 **1) 点击 系统管理 > 通知公告**
 
-![notice_list](/assets/img/system/notice/notice_list.png)
+![notice_list](/doc/assets/img/system/notice/notice_list.png)
 
 **2)点击搜索，查询搜索数据**
 
-![click_search_notice](/assets/img/system/notice/click_search_notice.png)
+![click_search_notice](/doc/assets/img/system/notice/click_search_notice.png)
 
 **3)点击查看，查看公告数据**
 
-![detail_notice](/assets/img/system/notice/detail_notice.png)
+![detail_notice](/doc/assets/img/system/notice/detail_notice.png)
 
 
 ## 添加公告
@@ -23,11 +23,11 @@
 **1) 点击 新增按钮添加公告**
 
 
-![add_notice](/assets/img/system/notice/add_notice.png)
+![add_notice](/doc/assets/img/system/notice/add_notice.png)
 
 **2) 填写表单数据，添加公告**
 
-![add_notice_form](/assets/img/system/notice/add_notice_form.png)
+![add_notice_form](/doc/assets/img/system/notice/add_notice_form.png)
 
 ## 查看公告
 
@@ -39,8 +39,8 @@
 
 信息公告位于顶部右侧。点击“全部公告”可访问所有信息公告。“公告”主要功能为展示相关的通知。
 
-![receive_notice](/assets/img/system/notice/receive_notice.png)
+![receive_notice](/doc/assets/img/system/notice/receive_notice.png)
 
 点击图标查看通知
 
-![click_receive_notice](/assets/img/system/notice/click_receive_notice.png)
+![click_receive_notice](/doc/assets/img/system/notice/click_receive_notice.png)

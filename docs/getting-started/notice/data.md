@@ -20,6 +20,6 @@
  - 根因诊断与影响链分析：不止于表面现象，推断出故障的源头，并预测其对整个生产线的影响。
 
 
-![alert_data](/assets/img/alert/alert_data.png)
+![alert_data](/doc/assets/img/alert/alert_data.png)
 
 

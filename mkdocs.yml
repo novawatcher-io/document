@@ -11,8 +11,8 @@ edit_uri: https://github.com/novawatcher-io/document/
 theme:
   name: material
   language: zh
-  logo: assets/nova.svg
-  favicon: assets/min-logo.png
+  logo: doc/assets/nova.svg
+  favicon: doc/assets/min-logo.png
   custom_dir: overrides
   icon:
     repo: fontawesome/brands/github
@@ -87,7 +87,7 @@ extra:
     - icon: fontawesome/brands/docker
       link: https://hub.docker.com/r/novawatcher-io
 
-  alternate:
-    - name: English
-      link: https://novawatcher-io.github.io/docs-en/
-      lang: en
+#  alternate:
+#    - name: English
+#      link: https://novawatcher-io.github.io/docs-en/
+#      lang: en

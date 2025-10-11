@@ -7,27 +7,27 @@
 
 了解处理器负载与健康状况。
 
-![service_cpu_monitor](/assets/img/monitor/cpu.png)
+![service_cpu_monitor](/doc/assets/img/monitor/cpu.png)
 
 ## 内存
 
-![service_memory_monitor](/assets/img/monitor/memory.png)
+![service_memory_monitor](/doc/assets/img/monitor/memory.png)
 
 
 ## 服务器信息
 
 掌握系统基础身份与运行时长。
 
-![service_system_monitor](/assets/img/monitor/system.png)
+![service_system_monitor](/doc/assets/img/monitor/system.png)
 
 ## Golang信息
 
 洞察Go服务的内存、协程等运行时状态。
 
-![service_golang_monitor](/assets/img/monitor/golang.png)
+![service_golang_monitor](/doc/assets/img/monitor/golang.png)
 
 ## 磁盘状态
 
 监控存储空间使用情况，预防磁盘写满。
 
-![service_disk_monitor](/assets/img/monitor/disk.png)
+![service_disk_monitor](/doc/assets/img/monitor/disk.png)

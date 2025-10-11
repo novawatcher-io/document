@@ -18,10 +18,10 @@ description: cccccc
 
 单击新增按钮，添加ai 告警处理策略
 
-![add_ai_alert](/assets/img/alert/add_ai_alert.png)
+![add_ai_alert](/doc/assets/img/alert/add_ai_alert.png)
 
 ### 设置提问模板
 
 绑定设备名称和告警信息，设置出现问题后的提问模板，用来问工业智能体得到答案
 
-![save_ai_alert_form](/assets/img/alert/save_ai_alert_form.png)
+![save_ai_alert_form](/doc/assets/img/alert/save_ai_alert_form.png)

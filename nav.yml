@@ -1,6 +1,5 @@
 nav:
   - 用户指南:
-      - Overview: index.md
       - 工业智能体:
         - 模型知识库: getting-started/ai/dataset/index.md
         - 工业智能助理: getting-started/ai/dataset/assistant.md

@@ -50,19 +50,19 @@ Modbus物联网平台支持设备模板的共享和更新。用户可以分享�
 已有设备的模板添加
 对于已经添加的设备，用户可以通过设备管理界面进入设备配置，选择已有的设备，然后通过“模版添加”功能，配置从机地址并自动添加寄存器表。
 
-![add_device_template](/assets/img/assets/device_template/add_device_template.png)
+![add_device_template](/doc/assets/img/doc/assets/device_template/add_device_template.png)
 
 ### 修改设备模板
 
 点击修改按钮，修改设备模板
 
-![update_device_template](/assets/img/assets/device_template/update_device_template.png)
+![update_device_template](/doc/assets/img/doc/assets/device_template/update_device_template.png)
 
 ### 删除设备模板
 
 点击删除按钮，删除设备模板
 
-![delete_device_template](/assets/img/assets/device_template/delete_device_template.png)
+![delete_device_template](/doc/assets/img/doc/assets/device_template/delete_device_template.png)
 
 
 

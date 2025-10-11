@@ -82,21 +82,21 @@ alert字段解释：
 
 通过创建告警客户端，把网关的数据发送到服务器，创建完成后通过绑定告警策略,下发到客户端生效
 
-![add_alert_template](/assets/img/alert/add_alert_template.png)
+![add_alert_template](/doc/assets/img/alert/add_alert_template.png)
 
 填写表单，保存客户端
 
 
-![add_alert_template_form](/assets/img/alert/add_alert_template_form.png)
+![add_alert_template_form](/doc/assets/img/alert/add_alert_template_form.png)
 
 ## 修改客户端
 
 点击修改按钮，修改客户端
 
-![update_alert_template](/assets/img/alert/update_alert_template.png)
+![update_alert_template](/doc/assets/img/alert/update_alert_template.png)
 
 ## 删除客户端
 
 点击删除按钮，删除客户端
 
-![delete_alert_template](/assets/img/alert/delete_alert_template.png)
+![delete_alert_template](/doc/assets/img/alert/delete_alert_template.png)

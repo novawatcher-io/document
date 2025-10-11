@@ -14,11 +14,11 @@
 
 - 操作按钮：提供“搜索”和“重置”功能，便于快速定位目标用户。
 
-![search_online_user](/assets/img/monitor/search_online_user.png)
+![search_online_user](/doc/assets/img/monitor/search_online_user.png)
 
 ## 强退在线用户
 
 “强退在线用户”是“在线用户管理”页面中的一项核心管理操作。
 该功能允许系统管理员强制终止指定用户的登录会话，将其立即踢出系统。
 
-![quit_online_user](/assets/img/monitor/quit_online_user.png)
+![quit_online_user](/doc/assets/img/monitor/quit_online_user.png)
