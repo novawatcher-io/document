@@ -7,7 +7,7 @@
 
 进入 资产管理 > 建筑管理,进入建筑管理列表，点击搜索可以根据建筑物名称、建筑物类型、建筑物状态搜索建筑物
 
-![search_building](/doc/assets/img/doc/assets/building/search_building.png)
+![search_building](/docs-assets/img/docs-assets/building/search_building.png)
 
 ## 建筑表单
 
@@ -34,7 +34,7 @@
 进入 资产管理 > 建筑管理,进入建筑管理列表，点击新增，增加建筑物
 
 
-![add_building](/doc/assets/img/doc/assets/building/add_building.png)
+![add_building](/docs-assets/img/docs-assets/building/add_building.png)
 
 ## 修改建筑
 
@@ -42,10 +42,10 @@
 进入 资产管理 > 建筑管理,进入建筑管理列表，点击新增，修改建筑物
 
 
-![update_building](/doc/assets/img/doc/assets/building/update_building.png)
+![update_building](/docs-assets/img/docs-assets/building/update_building.png)
 
 ## 删除建筑
 
 进入 资产管理 > 建筑管理,进入建筑管理列表，点击删除，删除建筑物
 
-![delete_building](/doc/assets/img/doc/assets/building/delete_building.png)
+![delete_building](/docs-assets/img/docs-assets/building/delete_building.png)

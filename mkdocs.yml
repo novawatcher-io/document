@@ -5,18 +5,16 @@ repo_url: https://github.com/orgs/novawatcher-io/repositories
 repo_name: novawatcher-io
 site_description: Nova Documentation
 extra_css:
-  - stylesheets/extra.css
+  - docs-assets/stylesheets/extra.css
 edit_uri: https://github.com/novawatcher-io/document/
-
 theme:
   name: material
   language: zh
-  logo: doc/assets/nova.svg
-  favicon: doc/assets/min-logo.png
+  logo: docs-assets/nova.svg
+  favicon: docs-assets/min-logo.png
   custom_dir: overrides
   icon:
     repo: fontawesome/brands/github
-
   font:
     code: Robot Mono
   features:

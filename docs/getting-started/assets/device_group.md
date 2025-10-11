@@ -36,23 +36,23 @@
 
 在物联网控制台的左侧导航栏，选择资产管理 > 设备分组，单击搜索，可以根据分组名字，查询设备分组
 
-![search_device_group](/doc/assets/img/doc/assets/device_group/search_device_group.png)
+![search_device_group](/docs-assets/img/docs-assets/device_group/search_device_group.png)
 
 ## 新增设备分组
 
 在物联网控制台的左侧导航栏，选择资产管理 > 设备分组，单击"新增"，添加一个设备分组，如下图所示:
 
 
-![add_device_group](/doc/assets/img/doc/assets/device_group/add_device_group.png)
+![add_device_group](/docs-assets/img/docs-assets/device_group/add_device_group.png)
 
 ## 修改设备分组
 
 在物联网控制台的左侧导航栏，选择资产管理 > 设备分组，单击"新增"，修改一个设备分组，如下图所示:
 
-![update_device_group](/doc/assets/img/doc/assets/device_group/update_device_group.png)
+![update_device_group](/docs-assets/img/docs-assets/device_group/update_device_group.png)
 
 ## 删除设备分组
 
 在物联网控制台的左侧导航栏，选择资产管理 > 设备分组，单击"删除"，删除一个设备分组，如下图所示:
 
-![delete_device_group](/doc/assets/img/doc/assets/device_group/delete_device_group.png)
+![delete_device_group](/docs-assets/img/docs-assets/device_group/delete_device_group.png)

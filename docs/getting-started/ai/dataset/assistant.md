@@ -8,7 +8,7 @@
 
 点击按钮创建一个AI助理 
 
-![add_assistant](/doc/assets/img/ai/assistant/add_assistant.png)
+![add_assistant](/docs-assets/img/ai/assistant/add_assistant.png)
 
 
 ### 配置
@@ -37,14 +37,14 @@
 
 选择聊天助手，选择一个会话框
 
-![select_session](/doc/assets/img/ai/assistant/select_session.png)
+![select_session](/docs-assets/img/ai/assistant/select_session.png)
 
 ## 发起聊天
 
 对话框中输入问题，获取智能体对问题的解答
 
-![start_chat](/doc/assets/img/ai/assistant/start_chat.png)
+![start_chat](/docs-assets/img/ai/assistant/start_chat.png)
 
 智能体做出回答
 
-![do_chat](/doc/assets/img/ai/assistant/do_chat.png)
+![do_chat](/docs-assets/img/ai/assistant/do_chat.png)

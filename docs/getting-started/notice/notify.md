@@ -15,21 +15,21 @@
 
 2.回到新建通知模板弹框并刷新。在接收对象用户类型中选择新创建的用户。
 
-![add_receiver](/doc/assets/img/alert/add_receiver.png)
+![add_receiver](/docs-assets/img/alert/add_receiver.png)
 
 
 3.配置完成之后，单击确定，即可将该用户添加至告警策略，并接收告警策略发送的告警信息。
 
-![save_receiver](/doc/assets/img/alert/save_receiver.png)
+![save_receiver](/docs-assets/img/alert/save_receiver.png)
 
 ### 修改告警处理模板
 
 点击修改按钮，修改模板
 
-![update_receiver](/doc/assets/img/alert/update_receiver.png)
+![update_receiver](/docs-assets/img/alert/update_receiver.png)
 
 ### 删除告警处理模板
 
 点击删除按钮，删除模板
 
-![delete_alert_receiver](/doc/assets/img/alert/delete_alert_receiver.png)
+![delete_alert_receiver](/docs-assets/img/alert/delete_alert_receiver.png)

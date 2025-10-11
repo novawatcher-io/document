@@ -24,16 +24,16 @@
 
 点击新建按钮，新增智能预警
 
-![save_prediction](/doc/assets/img/ai/prediction/save_prediction.png)
+![save_prediction](/docs-assets/img/ai/prediction/save_prediction.png)
 
 填写表单，点击保存，保存预警策略
 
-![save_prediction_form](/doc/assets/img/ai/prediction/save_prediction_form.png)
+![save_prediction_form](/docs-assets/img/ai/prediction/save_prediction_form.png)
 
 点击修改，修改预警策略
 
-![update_prection](/doc/assets/img/ai/prediction/update_prection.png)
+![update_prection](/docs-assets/img/ai/prediction/update_prection.png)
 
 点击删除，删除预警策略
 
-![delete_prection](/doc/assets/img/ai/prediction/delete_prection.png)
+![delete_prection](/docs-assets/img/ai/prediction/delete_prection.png)

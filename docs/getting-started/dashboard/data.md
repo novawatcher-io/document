@@ -21,17 +21,17 @@
 
 通过点击 仪表盘管理 > 仪表盘列表,进入仪表盘列表.
 
-![dasboard_enter_data](/doc/assets/img/dashboard/dasboard_enter_data.png)
+![dasboard_enter_data](/docs-assets/img/dashboard/dasboard_enter_data.png)
 
 ## 创建仪表盘
 
 开启编辑模式
 
-![dashboard_data_enable](/doc/assets/img/dashboard/dashboard_data_enable.png)
+![dashboard_data_enable](/docs-assets/img/dashboard/dashboard_data_enable.png)
 
 点击添加面板
 
-![add_dashboard_data](/doc/assets/img/dashboard/add_dashboard_data.png)
+![add_dashboard_data](/docs-assets/img/dashboard/add_dashboard_data.png)
 
 仪表盘表单介绍
 
@@ -54,11 +54,11 @@
 
 填写表单,创建一个线性趋势图
 
-![save_dashboard_data](/doc/assets/img/dashboard/save_dashboard_data.png)
+![save_dashboard_data](/docs-assets/img/dashboard/save_dashboard_data.png)
 
 
 ### 预测未来数据趋势
 
 填写表单,创建一个线性趋势图
 
-![save_predict_dashboard](/doc/assets/img/dashboard/save_predict_dashboard.png)
+![save_predict_dashboard](/docs-assets/img/dashboard/save_predict_dashboard.png)

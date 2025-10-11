@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        青岛星观信息网络科技有限公司，电话16621086246,全国上门工厂物联网系统安装,青岛胶州上门工厂物联网系统安装,胶州上门MES系统安装,胶州工业智能体,胶州工业人工智能,胶州机床设备监控,胶州工厂设备监控,胶州制造业人工智能上门维修,胶州工业软件,胶州上门做工业系统,胶州工业智能化
+    </title>
+    <meta name="description"
+        content="聚焦制造业数字化转型关键痛点,通过 AI与工业技术深度融合,AIIOT,AIMES,AOT,AMES.电话：16621086246，中国智造,青岛胶州工厂智能制造系统,胶州安装智能制造系统,胶州上门做物联网系统安装,胶州安装MES系统,胶州工业智能体,胶州智造系统,胶州工厂系统,胶州上门系统安装,胶州上门工业调度系统,胶州工业监控安装,胶州工业系统上门施工,胶州上门安装电脑系统,胶州工业调度系统,胶州中控系统,">
+    <meta name="keywords"
+        content="中国上门物联网系统安装,AIIOT,AIMES,AOT,AMES，中国上门MES系统安装,工业智能体,中国智能制造，青岛胶州上门物联网系统安装，青岛胶州上门MES系统安装,青岛胶州工业智能体,青岛胶州智能制造，推理大模型,边缘网关,时序大模型,平台调度中心">
+    <link rel="stylesheet" href="/assets/aos/aos.css" />
+    <link rel="stylesheet" href="/assets/css/base.css" />
+    <link rel="stylesheet" href="/assets/css/h5.css" />
+    <link rel="stylesheet" href="/assets/css/index.css" />
+    <link rel="icon" href="/assets/img/logo.png">
+    <style>
+        /* ========= 安全区适配 & 视口高度变量 ========= */
+        :root {
+            --safe-top: env(safe-area-inset-top, 0px);
+            --safe-bottom: env(safe-area-inset-bottom, 0px);
+            --100dvh: 100dvh;
+            --100svh: 100svh;
+        }
+    </style>
+    <style>
+        /* ========= Fluid Typography & Spacing ========= */
+        /* 手机 & 平板：随视口宽度平滑缩放（避免在有工具栏时显得拥挤） */
+        @media (max-width:1119px) {
+
+            /* 基础字号：Tailwind 多用 rem，这里调 html 即可带动大多数字体随动 */
+            html {
+                font-size: clamp(14px, 3.3vw, 18px);
+            }
+
+            /* 常用标题与正文的流式字号（覆盖固定 px 的自定义类） */
+            h2 {
+                font-size: clamp(20px, 4.8vw, 28px);
+            }
+
+            h3 {
+                font-size: clamp(16px, 3.6vw, 22px);
+            }
+
+            .text {
+                font-size: clamp(13px, 2.8vw, 16px);
+            }
+
+            .list-style {
+                font-size: clamp(14px, 3.0vw, 18px);
+            }
+
+            .fc-primary,
+            nav,
+            .switch {
+                font-size: clamp(14px, 2.6vw, 16px);
+            }
+
+            /* slide/卡片的内边距随宽度略增，提升密度感 */
+            /* .swiper-slide { padding: clamp(16px, 3vw, 24px) clamp(16px, 4vw, 32px); } */
+            .card-list .card {
+                padding: clamp(20px, 3vw, 28px) clamp(16px, 3.5vw, 24px);
+            }
+        }
+
+        /* 桌面：使用稳定基准（你现有 PC 样式以此为基准即可） */
+        @media (min-width:1120px) {
+            html {
+                font-size: 16px;
+            }
+        }
+    </style>
+    <style>
+        /* ===== 手机端首屏加载动画（仅≤1119px显示） ===== */
+        #mobileLoader {
+            position: fixed;
+            inset: 0;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            background: #0b1221;
+            z-index: 9999;
+            transition: opacity .4s ease;
+        }
+
+        #mobileLoader.hide {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        #mobileLoader .logo {
+            width: 120px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        #mobileLoader .bar {
+            width: 64vw;
+            max-width: 360px;
+            height: 4px;
+            background: rgba(255, 255, 255, .25);
+            border-radius: 999px;
+            overflow: hidden;
+            box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .15);
+        }
+
+        #mobileLoader .bar>i {
+            display: block;
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, rgba(255, 255, 255, .9), rgba(255, 255, 255, .6));
+            border-radius: 999px;
+            transition: width .3s ease;
+        }
+
+        @media (max-width:1119px) {
+            #mobileLoader {
+                display: flex;
+                flex-direction: column;
+            }
+
+            #mobileLoader .logo {
+                width: 24vw;
+                max-width: 160px;
+            }
+        }
+
+        @media (min-width:1120px) {
+            #mobileLoader {
+                display: none !important;
+            }
+        }
+    </style>
+    <style>
+        /* === 首屏视频播放按钮遮罩（桌面 & 移动通用） === */
+        .video-play-overlay {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            line-height: 1;
+            color: #fff;
+            background: rgba(0, 0, 0, .5);
+            border: 1px solid rgba(255, 255, 255, .6);
+            box-shadow: 0 6px 24px rgba(0, 0, 0, .25);
+            z-index: 12;
+            user-select: none;
+            transition: opacity .2s ease, transform .2s ease;
+        }
+
+        .video-play-overlay.hidden {
+            opacity: 0;
+            pointer-events: none;
+            transform: translate(-50%, -50%) scale(.9);
+        }
+
+        /* 确保容器可定位 */
+        .video-container {
+            position: relative;
+        }
+
+        .mobile-only .swiper-slide {
+            position: relative;
+        }
+    </style>
+    <style>
+        /* ===== 桌面端首屏加载条（仅≥1120px显示） ===== */
+        #desktopLoader {
+            position: fixed;
+            inset: 0;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            background: #0b1221;
+            z-index: 9999;
+            transition: opacity .4s ease;
+        }
+
+        #desktopLoader.hide {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        #desktopLoader .logo {
+            width: 140px;
+            height: auto;
+            margin-bottom: 24px;
+        }
+
+        #desktopLoader .bar {
+            width: 36vw;
+            min-width: 360px;
+            max-width: 560px;
+            height: 6px;
+            background: rgba(255, 255, 255, .25);
+            border-radius: 999px;
+            overflow: hidden;
+            box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .15);
+        }
+
+        #desktopLoader .bar>i {
+            display: block;
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, rgba(255, 255, 255, .9), rgba(255, 255, 255, .6));
+            border-radius: 999px;
+            transition: width .3s ease;
+        }
+
+        @media (min-width:1120px) {
+            #desktopLoader {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+        @media (max-width:1119px) {
+            #desktopLoader {
+                display: none !important;
+            }
+        }
+    </style>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/castable-video/+esm"></script>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net.cn/npm/swiper@12/swiper-bundle.min.css" /> -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <!-- 仅在<=768px时按需加载 Tailwind CDN -->
+    <script>
+        (function () {
+            const MQ = '(max-width:1119px)';
+            let twScript = null;
+            let swiperCss = null;
+            let loaded = false;
+
+            // --- Tailwind style detection & tagging ---
+            const twStyleSet = new Set();
+            function looksLikeTailwindStyle(node) {
+                if (!node || node.tagName !== 'STYLE') return false;
+                const id = (node.id || '').toLowerCase();
+                const txt = node.textContent || '';
+                if (/^__tailwind/.test(id)) return true;
+                if (/tailwind|^tw$|^tailwind$/.test(id)) return true;
+                if (txt.indexOf('/*! tailwindcss') !== -1) return true;
+                if (txt.indexOf('--tw-') !== -1) return true;
+                if (/@layer\s+(base|components|utilities)/.test(txt)) return true;
+                if (txt.indexOf('*,::before,::after') !== -1 && txt.indexOf('border-color: currentColor') !== -1) return true;
+                return false;
+            }
+            function tagTailwindStyle(node) {
+                try {
+                    if (looksLikeTailwindStyle(node)) {
+                        node.setAttribute('data-tailwind-cdn', '1');
+                        twStyleSet.add(node);
+                    }
+                } catch (e) { }
+            }
+            // Observe new style nodes to tag them as soon as Tailwind injects them
+            const mo = new MutationObserver(muts => {
+                for (const m of muts) {
+                    m.addedNodes && m.addedNodes.forEach(n => {
+                        if (n && n.nodeType === 1 && n.tagName === 'STYLE') tagTailwindStyle(n);
+                    });
+                }
+            });
+            mo.observe(document.head || document.documentElement, { childList: true, subtree: true });
+
+            function loadMobile() {
+                if (loaded) return;
+                // 清理可能残留的 Tailwind 注入样式，避免反复切换产生多个 <style>
+                removeTailwindInjectedStyles();
+                loaded = true;
+                // 防闪烁：Tailwind 编译前隐藏
+                document.documentElement.classList.add('twl-loading');
+
+                // 可选：Tailwind 运行时配置（如需）
+                window.tailwind = window.tailwind || { darkMode: ['class'], corePlugins: { preflight: false }, theme: { extend: {} } };
+
+                // 注入 Tailwind CDN
+                // <link rel="stylesheet" href="/assets/aos/output.css" />
+
+                twScript = document.createElement('link');
+                twScript.id = 'tw-cdn';
+                twScript.rel = 'stylesheet';
+                twScript.href = '/assets/css/tailwindcss.css';
+                twScript.onload = function () {
+                    // 编译完显示
+                    document.documentElement.classList.remove('twl-loading');
+                    console.log('Tailwind (mobile) loaded');
+                };
+                document.head.appendChild(twScript);
+
+                // 注入 Swiper CSS（仅移动端需要）
+                swiperCss = document.createElement('link');
+                swiperCss.id = 'swiper-css-cdn';
+                swiperCss.rel = 'stylesheet';
+                swiperCss.href = '/assets/css/swiper-bundle.min.css';
+                document.head.appendChild(swiperCss);
+            }
+
+            // 移除 Tailwind 注入的 style 标签和自定义 layer
+            function removeTailwindInjectedStyles() {
+                // 1) remove all styles that were tagged as tailwind
+                twStyleSet.forEach(n => { try { n.innerHTML = ''; } catch (e) { } });
+                twStyleSet.clear();
+                // 2) fallback: query by attribute marker
+                document.querySelectorAll('style[data-tailwind-cdn="1"], style[type="text/tailwindcss"]').forEach(node => {
+                    try { node.innerHTML = ''; } catch (e) { }
+                });
+                // 3) last resort: scan and remove styles that look like tailwind (do NOT touch other inline styles)
+                document.querySelectorAll('style').forEach(node => {
+                    if (looksLikeTailwindStyle(node)) {
+                        try { node.innerHTML = ''; } catch (e) { }
+                    }
+                });
+            }
+
+            function unloadMobile() {
+                // 先移除由 Tailwind 注入的内联样式（否则即使删了 <script> 也可能残留）
+                removeTailwindInjectedStyles();
+                if (twScript && twScript.parentNode) twScript.parentNode.removeChild(twScript);
+                if (swiperCss && swiperCss.parentNode) swiperCss.parentNode.removeChild(swiperCss);
+                twScript = null;
+                swiperCss = null;
+                loaded = false;
+                document.documentElement.classList.remove('twl-loading');
+                console.log('Mobile CSS/JS removed (desktop)');
+            }
+
+            const mql = window.matchMedia(MQ);
+            function apply(e) { if (e.matches) loadMobile(); else unloadMobile(); }
+            apply(mql);
+            // 兼容老浏览器
+            if (mql.addEventListener) mql.addEventListener('change', apply);
+            else if (mql.addListener) mql.addListener(apply);
+        })();
+    </script>
+</head>
+
+<body class="fc-primary  m-0 p-0">
+    <div id="mobileLoader" aria-label="页面加载中（移动端）">
+        <img class="logo" src="/assets/img/logo.png" alt="logo" />
+        <p style="color: #fff;margin-bottom: 20px;font-weight: bolder;">星观网络</p>
+        <div class="bar"><i id="mobileProgress"></i></div>
+    </div>
+    <div id="desktopLoader" aria-label="页面加载中（桌面端）">
+        <img class="logo" src="/assets/img/logo.png" alt="logo" />
+        <p style="color: #fff;margin-bottom: 20px;font-weight: bolder;">星观网络</p>
+        <div class="bar"><i id="desktopProgress"></i></div>
+    </div>
+    <header class="desktop-only">
+        <div class="header-core" data-aos="fade-down">
+            <div style="display: flex;align-items: center;">
+                <img src="/assets/img/logo.png" alt="logo" />
+                <p style="color: #fff;font-weight: bolder;">星观网络</p>
+            </div>
+
+            <nav>
+                <ul>
+                    <li class="active"><a href="/">首页</a></li>
+                    <li><a href="/getting-started/ai/dataset">文档</a></li>
+                    <!--                    <li><a href="/services">服务</a></li>-->
+                    <!--                    <li><a href="/blog">博客</a></li>-->
+                    <!--                    <li><a href="/contact">联系我们</a></li>-->
+                </ul>
+            </nav>
+            <div class="switch">
+                <span class="active">中文</span>
+                <span>英文</span>
+            </div>
+        </div>
+    </header>
+    <main class="desktop-only">
+        <div class="video-container">
+            <video id="my-video" autoplay muted loop preload="metadata">
+                <source src="/assets/video/ai.mp4" type="video/mp4">
+                您的浏览器不支持HTML5视频标签。
+            </video>
+            <button class="video-play-overlay hidden" aria-label="播放">▶</button>
+            <div class="video-container-content">
+                <p>让制造业工厂能听会说 能理解会行动, 工厂智能化系统安装，联系我:16621086246</p>
+                <p>Enable the factory to hear, speak, understand and act.</p>
+            </div>
+        </div>
+        <div class="three-scene">
+            <h3 data-aos="fade-up">三大核心应用场景概览</h3>
+            <p data-aos="fade-up">聚焦制造业数字化转型关键痛点,通过 AI与工业技术深度融合</p>
+            <ul class="card-list">
+                <li class="card" data-aos="flip-left">
+                    <div class="card-header">
+                        <img src="/assets/img/circle-1.png" alt="" />
+                        <img src="/assets/img/icon-arrow.png" alt="share" />
+                    </div>
+                    <p>工艺优化</p>
+                </li>
+                <li class="card" data-aos="flip-up">
+                    <div class="card-header">
+                        <img src="/assets/img/circle-2.png" alt="" />
+                        <img src="/assets/img/icon-arrow.png" alt="share" />
+                    </div>
+                    <p>环保</p>
+                </li>
+                <li class="card" data-aos="flip-right">
+                    <div class="card-header">
+                        <img src="/assets/img/circle-3.png" alt="" />
+                        <img src="/assets/img/icon-arrow.png" alt="share" />
+                    </div>
+                    <p>节能</p>
+                </li>
+            </ul>
+        </div>
+        <div class="product-service">
+            <h3 data-aos="fade-up">核心功能概览</h3>
+            <p data-aos="fade-up">聚焦制造业数字化转型关键痛点,通过 AI与工业技术深度融合</p>
+            <div class="swiper-container">
+                <div class="process-optimization swiper-slide swiper-slide-active">
+                    <div class="desc">
+                        <h3>工艺优化</h3>
+                        <ul>
+                            <li>
+                                技术支撑：“感知-分析-决策-执行”的闭环优化。
+                            </li>
+                            <li>
+                                应用价值：工艺优化通过提升制造过程的“确定性”、“经济性”和“敏捷性”，为企业创造实实在在的财务和战略收益。
+                            </li>
+                            <li>
+                                案例：制砖行业的砖窑,通过智能调度与工艺优化结合方案.避免了因炉温不稳定或未达到工艺要求就生产造成的批量焊接缺陷。
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="/assets/img/craft.png" alt="">
+                </div>
+                <div class="process-optimization swiper-slide swiper-slide-next">
+                    <div class="desc">
+                        <h3>趋势预测</h3>
+                        <ul>
+                            <li>
+                                技术支撑：使用神经网络结合设备数据，对数据趋势进行分析
+                            </li>
+                            <li>
+                                应用价值：各类传感器（振动、温度、视觉等）。负责采集物理世界的数据和识别对象,上报到数据中使用神经网络进行分析。
+                            </li>
+                            <li>
+                                案例：大型风电场的预测性维护，AI模型分析传感器数据，识别出异常振动模式，提前数周预测到齿轮箱的潜在故障。
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="/assets/img/trend.png" alt="">
+                </div>
+                <div class="process-optimization swiper-slide swiper-slide-prev">
+                    <div class="desc">
+                        <h3>设备监控</h3>
+                        <ul>
+                            <li>
+                                技术支撑：通过物联网网关，实时收集设备数据，上报到数据中心，进行监控报警和仪表盘分析
+                            </li>
+                            <li>
+                                应用价值：工业物联网设备监控是帮助企业实现降本增效、安全运营和智能化转型的必备基础
+                            </li>
+                            <li>
+                                案例：一家汽车零部件制造商拥有上百台数控机床，管理层不清楚设备的真实利用率，经常因莫名“小停机”导致订单延误，且刀具断刀、磨损等异常无法及时知晓。
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="/assets/img/monitor.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="product-feature">
+            <h3 data-aos="fade-up">产品特色</h3>
+            <p data-aos="fade-up">推理大模型、边缘网关、时序大模型、平台调度中心</p>
+            <div class="feature-item">
+                <div class="feature-desc" data-aos="fade-right">
+                    <h3>打造企业私有知识库</h3>
+                    <ul>
+                        <li>
+                            <p class="list-style">1.OCR 识别精准解析工业文档</p>
+                            <p class="text">能精准识别和理解设备故障代码等复杂文档的结构与内涵。</p>
+                        </li>
+                        <li>
+                            <p class="list-style">2. 企业级私有化部署，保障核心数据绝对安全数据不出域，安全无忧</p>
+                            <p class="text">所有知识库数据、模型均部署在您自有的服务器或私有云环境中。</p>
+                        </li>
+                        <li>
+                            <p class="list-style">3.溯源可信，辅助决策</p>
+                            <p class="text">每一个生成答案都附带来源引用，直接链接至原始文档的精确段落、图表编号，方便用户核查验证，为工艺优化、故障根因分析提供可靠依据。</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="feature-img" data-aos="fade-left">
+                    <img src="/assets/img/pic-4.png" alt="" />
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-img" data-aos="fade-right">
+                    <img src="/assets/img/pic-5.png" alt="" />
+                </div>
+                <div class="feature-desc" data-aos="fade-left">
+                    <h3>智能控制</h3>
+                    <ul>
+                        <li>
+                            <p class="list-style">1.多协议广适配</p>
+                            <p class="text">内置强大的工业协议库（如OPC
+                                UA、Modbus、Profinet等），可快速对接CNC数控机床、PLC控制器、机器人、传感器等新旧设备，打破数据孤岛，实现全厂设备“一网联通”。</p>
+                        </li>
+                        <li>
+                            <p class="list-style">2. 基于AI的智能分析与自主决策</p>
+                            <p class="text">预测性维护：通过AI算法实时分析设备振动、温度、电流等参数，精准预测潜在故障并提前预警，变被动维修为主动干预，大幅降低意外停机时间与维护成本。</p>
+                        </li>
+                        <li>
+                            <p class="list-style">3. 灵活可配置调度策略引擎</p>
+                            <p class="text">通过直观的图形化界面，拖拽预置的“条件判断”、“逻辑循环”、“指令执行”等功能模块，即可像绘制流程图一样，轻松构建复杂的调度策略。</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-desc" data-aos="fade-right">
+                    <h3>智能报警</h3>
+                    <ul>
+                        <li>
+                            <p class="list-style">1.  大模型即时知识调用</p>
+                            <p class="text">
+                                当设备发生报警时，系统自动调用您私有知识库中的设备手册、历史维修记录、专家经验库，由大模型生成精准的故障诊断结论和可操作的处置建议（含步骤、工具、安全须知），并直接推送至现场人员。
+                            </p>
+                        </li>
+                        <li>
+                            <p class="list-style">2. 预测性预警与风险自愈</p>
+                            <p class="text">结合实时数据流与历史模型，系统能识别出细微的异常趋势，在设备真正故障或质量缺陷发生前，发出预测性预警。</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="feature-img" data-aos="fade-left">
+                    <img src="/assets/img/pic-6.png" alt="" />
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="contact-box" data-aos="fade-left">
+            <ul>
+                <li>
+                    <img src="/assets/img/icon-wechart.png" alt="微信">
+                    微信
+                </li>
+                <li>
+                    <img src="/assets/img/icon-phone.png" alt="电话">
+                    电话
+                </li>
+                <li>
+                    <img src="/assets/img/icon-email.png" alt="邮箱">
+                    邮箱
+                </li>
+            </ul>
+            <span class="customer-service">咨询<br>客服</span>
+        </div>
+    </main>
+    <footer class="desktop-only">
+        <div class="footer-core">
+            <img src="/assets/img/logo.png" alt="logo" data-aos="fade-in" />
+            <ul class="link-box" data-aos="fade-up">
+                <!--                <li>-->
+                <!--                    <h5>文档中心</h5>-->
+                <!--                    <ul>-->
+                <!--                        <li>文档中心</li>-->
+                <!--                        <li>文档中心</li>-->
+                <!--                        <li>文档中心</li>-->
+                <!--                    </ul>-->
+                <!--                </li>-->
+                <!--                <li>-->
+                <!--                    <h5>客户案例</h5>-->
+                <!--                    <ul>-->
+                <!--                        <li>客户案例</li>-->
+                <!--                        <li>客户案例</li>-->
+                <!--                        <li>客户案例</li>-->
+                <!--                    </ul>-->
+                <!--                </li>-->
+                <!--                <li>-->
+                <!--                    <h5>新闻中心</h5>-->
+                <!--                    <ul>-->
+                <!--                        <li>新闻中心</li>-->
+                <!--                        <li>新闻中心</li>-->
+                <!--                        <li>新闻中心</li>-->
+                <!--                    </ul>-->
+                <!--                </li>-->
+                <li>
+                    <h5>关于我们</h5>
+                    <ul>
+                        <li>电话：16621086246</li>
+                        <li>邮箱：16621086246@163.com</li>
+                        <li>地址：青岛胶州九龙创业园136室</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <a href="javascript:;"
+            style="text-align: center;color: #7B8391; background-color: #030B1C;display: block;width: 100%;">Copyright©青岛星观信息网络科技有限公司</a>
+        <a href="https://beian.miit.gov.cn/" target="_blank"
+            style="text-align: center;color: #7B8391; background-color: #030B1C;display: block;width: 100%;margin-bottom:100px;padding-bottom: 40px;">鲁ICP备2025153069号</a>
+
+    </footer>
+    <div class="mobile-only swiper-page w-full h-full  mx-auto overflow-x-hidden">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide relative">
+                <header class="absolute top-2 left-0 z-10 w-full h-12 flex items-center justify-between px-[2rem]">
+                    <div style="display: flex;justify-content: center;align-items: center;">
+                        <img src="/assets/img/logo.png" alt="logo" style="height: 40px;" />
+                        <p style="color: #fff;line-height: 40px;font-weight: bolder; justify-content: center;align-items: center;">星观网络</p>
+                    </div>
+                    <button id="menuToggle"
+                        class="bg-blue-400 hover:bg-blue-500 text-white p-2 rounded-full shadow-lg transition-all duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </header>
+                <video id="my-video" preload="metadata" autoplay muted loop playsinline
+                    class="w-full h-full object-cover" poster="/assets/img/home-video.jpg">
+                    <source src="/assets/video/ai.mp4" type="video/mp4" />
+                    您的浏览器不支持HTML5视频标签。
+                </video>
+                <button class="video-play-overlay" aria-label="播放">▶</button>
+                <div class="video-container-content">
+                    <p>让制造业工厂能听会说 能理解会行动, 工厂智能化系统安装，联系我:16621086246</p>
+                </div>
+            </div>
+            <div class="swiper-slide scene-box flex flex-col justify-center">
+                <h2 class="text-center text-2xl mb-4">三大核心应用场景概览</h2>
+                <p class="text-center mb-10 mx-8">
+                    聚焦制造业数字化转型关键痛点,通过 AI与工业技术深度融合
+                </p>
+                <div class="swiper-scene w-72 h-96 mx-auto">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide card p-10 w-72 h-96 rounded">
+                            <div class="flex items-center mb-2">
+                                <img src="/assets/img/circle-1.png" class="w-12" alt="" />
+                                <p class="fc-primary ml-4 mr-auto">工艺优化</p>
+                                <img src="/assets/img/icon-arrow.png" class="w-8" alt="" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide card p-10 w-72 h-96 rounded">
+                            <div class="flex items-center mb-2">
+                                <img src="/assets/img/circle-2.png" class="w-12" alt="" />
+                                <p class="fc-primary ml-4 mr-auto">环保</p>
+                                <img src="/assets/img/icon-arrow.png" class="w-8" alt="" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide card p-10 w-72 h-96 rounded">
+                            <div class="flex items-center mb-2">
+                                <img src="/assets/img/circle-3.png" class="w-12" alt="" />
+                                <p class="fc-primary ml-4 mr-auto">节能</p>
+                                <img src="/assets/img/icon-arrow.png" class="w-8" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide bg-gradient flex flex-col justify-center">
+                <h2 class="text-center text-2xl mb-4">产品和服务</h2>
+                <p class="text-center mb-10 mx-8">
+                    推理大模型、边缘网关、时序大模型、平台调度中心,通过
+                    AI与工业技术深度融合
+                </p>
+                <div class="swiper-product w-3/4 h-3/4 mx-auto">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide p-2 w-3/4 h-fit rounded-2xl bx-shadow by-shadow">
+                            <div class="px-4 mb-2">
+                                <h3 class="leading-7 text-center" style="font-weight: bolder;">工艺优化</h3>
+                                <ul class="text-xs list-disc leading-7">
+                                    <li>
+                                        <strong>技术支撑：</strong> “感知-分析-决策-执行”的闭环优化。
+                                    </li>
+                                    <li>
+                                        <strong>应用价值：</strong> 工艺优化通过提升制造过程的“确定性”、“经济性”和“敏捷性”，为企业创造实实在在的财务和战略收益。
+                                    </li>
+                                    <li>
+                                        <strong>案例：</strong> 制砖行业的砖窑,通过智能调度与工艺优化结合方案.避免了因炉温不稳定或未达到工艺要求就生产造成的批量焊接缺陷。
+                                    </li>
+                                </ul>
+                            </div>
+                            <img src="/assets/img/craft.png" alt="" />
+                        </div>
+                        <div class="swiper-slide p-2 w-3/4 h-fit rounded-2xl bx-shadow by-shadow">
+                            <div class="px-4 mb-2">
+                                <h3 class="leading-7 text-center" style="font-weight: bolder;">趋势预测</h3>
+                                <ul class="text-xs list-disc leading-7">
+                                    <li>
+                                        <strong>技术支撑</strong>：使用神经网络结合设备数据，对数据趋势进行分析
+                                    </li>
+                                    <li>
+                                        <strong>应用价值</strong>：各类传感器（振动、温度、视觉等）。负责采集物理世界的数据和识别对象,上报到数据中使用神经网络进行分析。
+                                    </li>
+                                    <li>
+                                        <strong>案例</strong>：大型风电场的预测性维护，AI模型分析传感器数据，识别出异常振动模式，提前数周预测到齿轮箱的潜在故障
+                                    </li>
+                                </ul>
+                            </div>
+                            <img src="/assets/img/trend.png" alt="" />
+                        </div>
+                        <div class="swiper-slide p-2 w-3/4 h-fit rounded-2xl bx-shadow by-shadow">
+                            <div class="px-4 mb-2">
+                                <h3 class="leading-7 text-center" style="font-weight: bolder;">设备监控</h3>
+                                <ul class="text-xs list-disc leading-7">
+                                    <li>
+                                        <strong>技术支撑</strong>：通过物联网网关，实时收集设备数据，上报到数据中心，进行监控报警和仪表盘分析
+                                    </li>
+                                    <li>
+                                        <strong>应用价值</strong>：工业物联网设备监控是帮助企业实现降本增效、安全运营和智能化转型的必备基础
+                                    </li>
+                                    <li>
+                                        <strong>案例</strong>：一家汽车零部件制造商拥有上百台数控机床，管理层不清楚设备的真实利用率，经常因莫名“小停机”导致订单延误，且刀具断刀、磨损等异常无法及时知晓
+                                    </li>
+                                </ul>
+                            </div>
+                            <img src="/assets/img/monitor.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide bg-img-1 flex flex-col pt-[5vh]">
+                <h2 class="text-center text-2xl mb-4">产品特色</h2>
+                <p class="text-center mb-10 mx-8">
+                    推理大模型、边缘网关、时序大模型、平台调度中心,通过
+                    AI与工业技术深度融合
+                </p>
+                <div class="mx-8 leading-7">
+                    <h3 class="text-base">打造企业私有知识库</h3>
+                    <ul>
+                        <li>
+                            <p class="list-style">1.OCR 识别精准解析工业文档</p>
+                            <p class="text">
+                                能精准识别和理解设备故障代码等复杂文档的结构与内涵。
+                            </p>
+                        </li>
+                        <li>
+                            <p class="list-style">
+                                2. 企业级私有化部署，保障核心数据绝对安全数据不出域，安全无忧
+                            </p>
+                            <p class="text">
+                                所有知识库数据、模型均部署在您自有的服务器或私有云环境中。
+                            </p>
+                        </li>
+                        <li>
+                            <p class="list-style">3.溯源可信，辅助决策</p>
+                            <p class="text">
+                                每一个生成答案都附带来源引用，直接链接至原始文档的精确段落、图表编号，方便用户核查验证，为工艺优化、故障根因分析提供可靠依据。
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="swiper-slide bg-img-2 flex flex-col pt-[5vh]">
+                <h2 class="text-center text-2xl mb-4">产品特色</h2>
+                <p class="text-center mb-10 mx-8">
+                    推理大模型、边缘网关、时序大模型、平台调度中心,通过
+                    AI与工业技术深度融合
+                </p>
+                <div class="mx-8 leading-7">
+                    <h3>智能控制</h3>
+                    <ul>
+                        <li>
+                            <p class="list-style">1.多协议广适配</p>
+                            <p class="text">
+                                内置强大的工业协议库（如OPC
+                                UA、Modbus、Profinet等），可快速对接CNC数控机床、PLC控制器、机器人、传感器等新旧设备，打破数据孤岛，实现全厂设备“一网联通”。
+                            </p>
+                        </li>
+                        <li>
+                            <p class="list-style">2. 基于AI的智能分析与自主决策</p>
+                            <p class="text">
+                                预测性维护：通过AI算法实时分析设备振动、温度、电流等参数，精准预测潜在故障并提前预警，变被动维修为主动干预，大幅降低意外停机时间与维护成本。
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="swiper-slide bg-img-3 flex flex-col pt-[5vh]">
+                <h2 class="text-center text-2xl mb-4">产品特色</h2>
+                <p class="text-center mb-10 mx-8">
+                    推理大模型、边缘网关、时序大模型、平台调度中心,通过
+                    AI与工业技术深度融合
+                </p>
+                <div class="mx-8 leading-7">
+                    <h3>智能报警</h3>
+                    <ul>
+                        <li>
+                            <p class="list-style">1.大模型即时知识调用</p>
+                            <p class="text">
+                                当设备发生报警时，系统自动调用您私有知识库中的设备手册、历史维修记录、专家经验库、SOP标准作业程序，由大模型生成精准的故障诊断结论和可操作的处置建议（含步骤、工具、安全须知），并直接推送至现场人员。
+                            </p>
+                        </li>
+                        <li>
+                            <p class="list-style">2. 预测性预警与风险自愈</p>
+                            <p class="text">
+                                结合实时数据流与历史模型，系统能识别出细微的异常趋势，在设备真正故障或质量缺陷发生前，发出预测性预警。
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="swiper-slide flex flex-col justify-center bg-slate-700 text-white grid-lines">
+                <img src="/assets/img/logo.png" alt="logo" class=" mb-10 mx-auto" style="width: 10%;" />
+                <ul class="flex flex-col gap-4 text-center">
+                    <!--                    <li>-->
+                    <!--                        <h5 class="text-lg font-bold mb-2">文档中心</h5>-->
+                    <!--                        <ul>-->
+                    <!--                            <li>文档中心</li>-->
+                    <!--                            <li>文档中心</li>-->
+                    <!--                            <li>文档中心</li>-->
+                    <!--                        </ul>-->
+                    <!--                    </li>-->
+                    <!--                    <li>-->
+                    <!--                        <h5 class="text-lg font-bold mb-2">客户案例</h5>-->
+                    <!--                        <ul>-->
+                    <!--                            <li>客户案例</li>-->
+                    <!--                            <li>客户案例</li>-->
+                    <!--                            <li>客户案例</li>-->
+                    <!--                        </ul>-->
+                    <!--                    </li>-->
+                    <!--                    <li>-->
+                    <!--                        <h5 class="text-lg font-bold mb-2">新闻中心</h5>-->
+                    <!--                        <ul>-->
+                    <!--                            <li>新闻中心</li>-->
+                    <!--                            <li>新闻中心</li>-->
+                    <!--                            <li>新闻中心</li>-->
+                    <!--                        </ul>-->
+                    <!--                    </li>-->
+                    <li>
+                        <h5 class="text-lg font-bold mb-2">关于我们</h5>
+                        <ul>
+                            <li>电话：16621086246</li>
+                            <li>邮箱：16621086246@163.com</li>
+                            <li>地址：青岛胶州九龙创业园136室</li>
+                        </ul>
+                    </li>
+                </ul>
+                <a href="javascript:;"
+                   style="text-align: center; width: 100%;">Copyright©青岛星观信息网络科技有限公司</a>
+                <a href="https://beian.miit.gov.cn/" target="_blank" style="text-align: center;">鲁ICP备2025153069号</a>
+
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- 遮罩层 -->
+    <div id="overlay" class="mobile-only fixed inset-0 bg-black bg-opacity-50 z-40 hidden"></div>
+
+    <!-- 导航抽屉 -->
+    <div id="navDrawer"
+        class="mobile-only fixed top-0 right-0 h-full w-64 bg-white shadow-xl z-50 transform translate-x-full transition-transform duration-300">
+        <div class="flex justify-between items-center p-4 border-b">
+            <h2 class="text-xl font-bold">菜单</h2>
+            <button id="closeDrawer" class="text-gray-500 hover:text-gray-700">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+
+        <nav class="p-4">
+            <ul class="space-y-3">
+                <li>
+                    <a href="#"
+                        class="flex items-center p-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-blue-600 transition-colors duration-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                        </svg>
+                        首页
+                    </a>
+                </li>
+                <li>
+                    <a href="/getting-started/ai/dataset"
+                        class="flex items-center p-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-blue-600 transition-colors duration-200">
+                        <svg class="h-5 w-5 mr-3" viewBox="0 0 1024 1024" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M762.6 1024H261.4c-103.6 0-187.9-84.3-187.9-187.9V407.3c0-36.3 14.1-70.4 39.8-96L406 18.5C418 6.6 433.8 0 450.7 0c16.9 0 32.8 6.6 44.7 18.5 11.9 11.9 18.5 27.7 18.5 44.6v210.5c0 74.9-60.9 135.8-135.8 135.8l-222.2-0.4v427.1c0 58.2 47.3 105.5 105.5 105.5h501.3c58.2 0 105.5-47.3 105.5-105.5V200c0-58.2-47.3-105.5-105.5-105.5H659.4c-22.8 0-41.2-18.4-41.2-41.2s18.4-41.2 41.2-41.2h103.2c103.6 0 187.9 84.3 187.9 187.9v636.1c0 103.6-84.3 187.9-187.9 187.9zM214.4 326.7l163.7 0.4c29.3 0 53.2-24 53.3-53.4v-164l-217 217z"
+                                fill="currentColor"></path>
+                            <path
+                                d="M679.681 615.954h-335.3c-22.8 0-41.2-18.4-41.2-41.2s18.4-41.2 41.2-41.2h335.3c22.8 0 41.2 18.4 41.2 41.2s-18.5 41.2-41.2 41.2zM679.681 821.954h-335.3c-22.8 0-41.2-18.4-41.2-41.2 0-22.8 18.4-41.2 41.2-41.2h335.3c22.8 0 41.2 18.4 41.2 41.2 0 22.8-18.5 41.2-41.2 41.2z"
+                                fill="currentColor"></path>
+                        </svg>
+                        文档
+                    </a>
+                </li>
+                <!--                <li>-->
+                <!--                    <a href="#"-->
+                <!--                        class="flex items-center p-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-blue-600 transition-colors duration-200">-->
+                <!--                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3" fill="none" viewBox="0 0 24 24"-->
+                <!--                            stroke="currentColor">-->
+                <!--                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"-->
+                <!--                                d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />-->
+                <!--                        </svg>-->
+                <!--                        个人中心-->
+                <!--                    </a>-->
+                <!--                </li>-->
+                <!--                <li>-->
+                <!--                    <a href="#"-->
+                <!--                        class="flex items-center p-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-blue-600 transition-colors duration-200">-->
+                <!--                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3" fill="none" viewBox="0 0 24 24"-->
+                <!--                            stroke="currentColor">-->
+                <!--                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"-->
+                <!--                                d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />-->
+                <!--                        </svg>-->
+                <!--                        帮助与反馈-->
+                <!--                    </a>-->
+                <!--                </li>-->
+            </ul>
+        </nav>
+    </div>
+    <script src="/assets/aos/aos.js"></script>
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+
+    <script>
+
+        AOS.init({
+            delay: 50,
+            duration: 1000,
+        });
+        setInterval(() => {
+            const swiperActive = document.querySelector('.swiper-slide-active');
+            const swiperPrev = document.querySelector('.swiper-slide-prev');
+            const swiperNext = document.querySelector('.swiper-slide-next');
+            swiperActive.classList.remove('swiper-slide-active')
+            swiperActive.classList.add('swiper-slide-prev');
+            swiperNext.classList.remove('swiper-slide-next')
+            swiperNext.classList.add('swiper-slide-active');
+            swiperPrev.classList.remove('swiper-slide-prev')
+            swiperPrev.classList.add('swiper-slide-next');
+        }, 4000);
+        const videoContainer = document.querySelector('.video-container');
+        const video = document.getElementById('my-video');
+        const playPauseBtn = document.querySelector('.play-pause-btn');
+        // 覆盖按钮：桌面首屏
+        const desktopOverlayBtn = document.querySelector('.video-container .video-play-overlay');
+        // 初始：显示按钮（等播放后隐藏）
+        if (desktopOverlayBtn) desktopOverlayBtn.classList.remove('hidden');
+        video.addEventListener('play', () => { desktopOverlayBtn && desktopOverlayBtn.classList.add('hidden'); });
+        video.addEventListener('pause', () => { desktopOverlayBtn && desktopOverlayBtn.classList.remove('hidden'); });
+        video.addEventListener('ended', () => { desktopOverlayBtn && desktopOverlayBtn.classList.remove('hidden'); });
+
+        if (desktopOverlayBtn) {
+            desktopOverlayBtn.addEventListener('click', function (e) {
+                e.stopPropagation();
+                if (video.paused) { video.play(); } else { video.pause(); }
+            });
+        }
+        videoContainer.addEventListener('click', function () {
+            if (video.paused) {
+                video.play();
+                videoContainer.classList.remove('paused');
+            } else {
+                video.pause();
+                videoContainer.classList.add('paused');
+            }
+        });
+        video.addEventListener('ended', function () {
+            videoContainer.classList.add('paused');
+        });
+
+        // 覆盖按钮：移动端首屏 slide
+        (function () {
+            const firstSlide = document.querySelector('.mobile-only .swiper-wrapper .swiper-slide');
+            if (!firstSlide) return;
+            const mVideo = firstSlide.querySelector('video');
+            const mBtn = firstSlide.querySelector('.video-play-overlay');
+            if (!mVideo || !mBtn) return;
+
+            // 初始显示按钮（如自动播放失败可手点）
+            mBtn.classList.remove('hidden');
+
+            function hide() { mBtn.classList.add('hidden'); }
+            function show() { mBtn.classList.remove('hidden'); }
+
+            mBtn.addEventListener('click', function (e) {
+                e.stopPropagation();
+                if (mVideo.paused) { mVideo.play().then(hide).catch(show); }
+                else { mVideo.pause(); show(); }
+            });
+
+            mVideo.addEventListener('click', function () {
+                if (mVideo.paused) { mVideo.play().then(hide).catch(show); }
+                else { mVideo.pause(); show(); }
+            });
+
+            mVideo.addEventListener('play', hide);
+            mVideo.addEventListener('pause', show);
+            mVideo.addEventListener('ended', show);
+        })();
+
+        const swiper1 = new Swiper(".swiper-page", {
+            direction: "vertical",
+            slidesPerView: 1,
+            mousewheel: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+        const swiper2 = new Swiper(".swiper-scene", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+        });
+        const swiper3 = new Swiper(".swiper-product", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 1,
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+        });
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuToggle = document.getElementById('menuToggle');
+            const navDrawer = document.getElementById('navDrawer');
+            const overlay = document.getElementById('overlay');
+            const closeDrawer = document.getElementById('closeDrawer');
+
+            // === 点击导航项高亮 .active（桌面 & 移动抽屉） ===
+            // 桌面导航：点击 <li> 切换 active
+            (function () {
+                const desktopHeader = document.querySelector('header.desktop-only nav ul');
+                if (desktopHeader) {
+                    desktopHeader.addEventListener('click', function (e) {
+                        const li = e.target.closest('li');
+                        if (!li || !desktopHeader.contains(li)) return;
+                        desktopHeader.querySelectorAll('li.active').forEach(n => n.classList.remove('active'));
+                        li.classList.add('active');
+                    });
+                }
+            })();
+
+            // 移动抽屉导航：点击 <li> 高亮，并自动收起抽屉
+            (function () {
+                const drawerUl = document.querySelector('#navDrawer nav ul');
+                if (drawerUl) {
+                    drawerUl.addEventListener('click', function (e) {
+                        const li = e.target.closest('li');
+                        if (!li || !drawerUl.contains(li)) return;
+                        drawerUl.querySelectorAll('li.active').forEach(n => n.classList.remove('active'));
+                        li.classList.add('active');
+                        // 选中后关闭抽屉
+                        if (typeof closeNavigationDrawer === 'function') {
+                            closeNavigationDrawer();
+                        }
+                    });
+                }
+            })();
+
+            // 打开抽屉
+            menuToggle.addEventListener('click', function () {
+                navDrawer.classList.remove('translate-x-full');
+                overlay.classList.remove('hidden');
+                overlay.classList.add('animate-fade-in');
+            });
+
+            // 关闭抽屉
+            function closeNavigationDrawer() {
+                navDrawer.classList.add('translate-x-full');
+                overlay.classList.add('hidden');
+            }
+
+            closeDrawer.addEventListener('click', closeNavigationDrawer);
+            overlay.addEventListener('click', closeNavigationDrawer);
+        });
+        // === 手机端首屏加载条：渐进到 90%，load 到 100% 后淡出，容错 5s ===
+        (function () {
+            const loader = document.getElementById('mobileLoader');
+            if (!loader) return;
+            const isMobile = window.matchMedia('(max-width:1119px)').matches;
+            if (!isMobile) { try { loader.remove(); } catch (_) { } return; }
+
+            const bar = document.getElementById('mobileProgress');
+            if (!bar) return;
+
+            let p = 0, hidden = false;
+            // 伪进度：平滑推进到 90%
+            const timer = setInterval(() => {
+                if (p < 90) {
+                    p = Math.min(90, p + (Math.random() * 4 + 2)); // 2~6%
+                    bar.style.width = p + '%';
+                } else {
+                    clearInterval(timer);
+                }
+            }, 120);
+
+            function hide() {
+                if (hidden) return; hidden = true;
+                loader.classList.add('hide');
+                setTimeout(() => { try { loader.remove(); } catch (_) { } }, 450);
+            }
+
+            function finishAndHide() {
+                p = 100; bar.style.width = '100%';
+                setTimeout(hide, 200); // 给条完成的时间
+            }
+
+            window.addEventListener('load', finishAndHide);
+            // 容错超时：5s 后强制完成并隐藏
+            setTimeout(finishAndHide, 5000);
+        })();
+        // === 桌面端首屏加载条：渐进到 90%，load 到 100% 后淡出，容错 5s ===
+        (function () {
+            const loader = document.getElementById('desktopLoader');
+            if (!loader) return;
+            const isDesktop = window.matchMedia('(min-width:1120px)').matches;
+            if (!isDesktop) { try { loader.remove(); } catch (_) { } return; }
+
+            const bar = document.getElementById('desktopProgress');
+            if (!bar) return;
+
+            let p = 0, hidden = false;
+            const timer = setInterval(() => {
+                if (p < 90) {
+                    p = Math.min(90, p + (Math.random() * 3 + 1.5)); // 1.5%~4.5%
+                    bar.style.width = p + '%';
+                } else {
+                    clearInterval(timer);
+                }
+            }, 120);
+
+            function hide() {
+                if (hidden) return; hidden = true;
+                loader.classList.add('hide');
+                setTimeout(() => { try { loader.remove(); } catch (_) { } }, 450);
+            }
+
+            function finishAndHide() {
+                p = 100; bar.style.width = '100%';
+                setTimeout(hide, 200);
+            }
+
+            window.addEventListener('load', finishAndHide);
+            setTimeout(finishAndHide, 5000);
+        })();
+    </script>
+</body>
+
+</html>

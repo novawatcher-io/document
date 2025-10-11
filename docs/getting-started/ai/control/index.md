@@ -28,12 +28,12 @@ AI 预测控制 就是将这个“展望前方”的能力，交给了AI模型�
 
 点击新增策略
 
-![add_control](/doc/assets/img/ai/control/add_control.png)
+![add_control](/docs-assets/img/ai/control/add_control.png)
 
 点击修改按钮吊起表单,保存表单
 
-![save_control](/doc/assets/img/ai/control/save_control.png)
+![save_control](/docs-assets/img/ai/control/save_control.png)
 
 点击删除，删除策略
 
-![delete_control](/doc/assets/img/ai/control/delete_control.png)
+![delete_control](/docs-assets/img/ai/control/delete_control.png)

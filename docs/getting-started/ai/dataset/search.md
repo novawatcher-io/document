@@ -5,7 +5,7 @@
 人工智能搜索是一种单转的AI对话,采用预定义的检索策略(即对加权关键词相似性和加权向量相似度的混合搜索)以及系统的默认聊天模型。
 它不涉及知识图、自动关键词或自动问题等高级RAG策略。相关部分根据聊天模型的相似度分数按降序排列,列在下方。
 
-![search](/doc/assets/img/ai/search/search.png)
+![search](/docs-assets/img/ai/search/search.png)
 
 ## 常见问题
 

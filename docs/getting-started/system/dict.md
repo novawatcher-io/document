@@ -14,10 +14,10 @@
 
 3.填充表单，保存数据
 
-![add_dict](/doc/assets/img/system/dict/add_dict.png)
+![add_dict](/docs-assets/img/system/dict/add_dict.png)
 
 
-![add_dict_form](/doc/assets/img/system/dict/add_dict_form.png)
+![add_dict_form](/docs-assets/img/system/dict/add_dict_form.png)
 
 ## 修改数据字典
 
@@ -27,12 +27,12 @@
 
 2.点击修改按钮
 
-![update_dict](/doc/assets/img/system/dict/update_dict.png)
+![update_dict](/docs-assets/img/system/dict/update_dict.png)
 
 
 3.填充表单，保存数据
 
-![update_dict_form](/doc/assets/img/system/dict/update_dict_form.png)
+![update_dict_form](/docs-assets/img/system/dict/update_dict_form.png)
 
 ## 删除数据字典
 
@@ -42,11 +42,11 @@
 
 2.点击删除按钮
 
-![del_dict](/doc/assets/img/system/dict/del_dict.png)
+![del_dict](/docs-assets/img/system/dict/del_dict.png)
 
 3.点击确认，删除字典
 
-![del_dict_form](/doc/assets/img/system/dict/del_dict_form.png)
+![del_dict_form](/docs-assets/img/system/dict/del_dict_form.png)
 
 ## 添加数据字典数据
 
@@ -54,15 +54,15 @@
 
 1.点击 系统管理 > 字典管理 > 字典
 
-![click_dict_data](/doc/assets/img/system/dict/click_dict_data.png)
+![click_dict_data](/docs-assets/img/system/dict/click_dict_data.png)
 
 2.点击新增按钮
 
-![add_dict_data](/doc/assets/img/system/dict/add_dict_data.png)
+![add_dict_data](/docs-assets/img/system/dict/add_dict_data.png)
 
 3.填写表单数据，保存字典数据
 
-![add_dict_data_form](/doc/assets/img/system/dict/add_dict_data_form.png)
+![add_dict_data_form](/docs-assets/img/system/dict/add_dict_data_form.png)
 
 ## 修改数据字典数据
 
@@ -70,15 +70,15 @@
 
 1.点击 系统管理 > 字典管理 > 字典
 
-![click_dict_data](/doc/assets/img/system/dict/click_dict_data.png)
+![click_dict_data](/docs-assets/img/system/dict/click_dict_data.png)
 
 2.点击修改按钮
 
-![update_dict_data](/doc/assets/img/system/dict/update_dict_data.png)
+![update_dict_data](/docs-assets/img/system/dict/update_dict_data.png)
 
 3.填写表单数据，保存字典数据
 
-![update_dict_data_form](/doc/assets/img/system/dict/update_dict_data_form.png)
+![update_dict_data_form](/docs-assets/img/system/dict/update_dict_data_form.png)
 
 ## 删除数据字典数据
 
@@ -86,12 +86,12 @@
 
 1.点击 系统管理 > 字典管理 > 字典
 
-![click_dict_data](/doc/assets/img/system/dict/click_dict_data.png)
+![click_dict_data](/docs-assets/img/system/dict/click_dict_data.png)
 
 2.点击删除按钮
 
-![del_dict_data](/doc/assets/img/system/dict/del_dict_data.png)
+![del_dict_data](/docs-assets/img/system/dict/del_dict_data.png)
 
 3.填写表单数据，保存字典数据
 
-![del_dict_data_form](/doc/assets/img/system/dict/del_dict_data_form.png)
+![del_dict_data_form](/docs-assets/img/system/dict/del_dict_data_form.png)

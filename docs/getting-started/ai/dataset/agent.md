@@ -8,4 +8,4 @@
 
 ragflow 后台创建完成后，可以在星观网络后台查看
 
-![agent_list](/doc/assets/img/ai/agent/agent_list.png)
+![agent_list](/docs-assets/img/ai/agent/agent_list.png)

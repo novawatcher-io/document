@@ -14,6 +14,6 @@
 
 
 
-![search_device_data](/doc/assets/img/device/search_device_data.png)
+![search_device_data](/docs-assets/img/device/search_device_data.png)
  
 

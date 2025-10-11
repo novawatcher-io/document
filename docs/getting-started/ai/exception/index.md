@@ -35,16 +35,16 @@
 
 点击新建按钮，新增智能预警
 
-![add_exception](/doc/assets/img/ai/exception/add_exception.png)
+![add_exception](/docs-assets/img/ai/exception/add_exception.png)
 
 填写表单，点击保存，保存预警策略
 
-![save_exception](/doc/assets/img/ai/exception/save_exception.png)
+![save_exception](/docs-assets/img/ai/exception/save_exception.png)
 
 点击修改，修改故障预警策略
 
-![update_exception](/doc/assets/img/ai/exception/update_exception.png)
+![update_exception](/docs-assets/img/ai/exception/update_exception.png)
 
 点击删除，删除故障预警策略
 
-![delete_exeption](/doc/assets/img/ai/exception/delete_exeption.png)
+![delete_exeption](/docs-assets/img/ai/exception/delete_exeption.png)

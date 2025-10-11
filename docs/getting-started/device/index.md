@@ -14,14 +14,14 @@
 
  > 点击设备介入，选择设备监控
 
-![device_monitor](/doc/assets/img/device/device_monitor.png)
+![device_monitor](/docs-assets/img/device/device_monitor.png)
 
 进入设备监控，查看接入的设备数据
 
-![device_monitor_list](/doc/assets/img/device/device_monitor_list.png)
+![device_monitor_list](/docs-assets/img/device/device_monitor_list.png)
 
 
 点击某一台设备，可以查看该设备的最新实时数据，并且可以查看数据最新趋势图，以及使用AI的趋势走向
 
-![device_monitor_detail](/doc/assets/img/device/device_monitor_detail.png)
+![device_monitor_detail](/docs-assets/img/device/device_monitor_detail.png)
 

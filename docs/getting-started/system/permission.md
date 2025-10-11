@@ -6,22 +6,22 @@
 此操作通常用于,对用户调用API鉴权。
 
 点击添加权限，吊起权限表单
-![add_permission](/doc/assets/img/system/permission/add_permission.png)
+![add_permission](/docs-assets/img/system/permission/add_permission.png)
 
 点击保存添加权限,添加权限表单
 
-![add_permission_form](/doc/assets/img/system/permission/add_permission_form.png)
+![add_permission_form](/docs-assets/img/system/permission/add_permission_form.png)
 
 ## 修改权限
 
 点击修改按钮添加权限
 
-![update_permission](/doc/assets/img/system/permission/update_permission.png)
+![update_permission](/docs-assets/img/system/permission/update_permission.png)
 
 ## 新增下级权限
 
-![add_permission_next](/doc/assets/img/system/permission/add_permission_next.png)
+![add_permission_next](/docs-assets/img/system/permission/add_permission_next.png)
 
 ## 删除权限
 
-![remove_permission](/doc/assets/img/system/permission/remove_permission.png)
+![remove_permission](/docs-assets/img/system/permission/remove_permission.png)

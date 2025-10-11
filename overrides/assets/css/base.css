@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'AlibabaPuHuiTi';
+  /* 你给字体的名称 */
+  src: url('../font/7ESFHoa5PgHW.woff2') format('woff2'),
+    /* 指向.woff2文件的URL和格式 */
+    url('../font/7ESFHoa5PgHW.woff') format('woff');
+  /* 指向.woff文件的URL和格式 */
+  font-weight: normal;
+  /* 字体的粗细 */
+  font-style: normal;
+  /* 字体的风格，如normal或italic */
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'AlibabaPuHuiTi', sans-serif;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+ul {
+  margin-block: 0;
+  padding-inline-start: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  padding-block: 0;
+}
+
+.mobile-only {
+  display: none;
+}
+
+.desktop-only {
+  display: block;
+}
+
+@media (max-width: 1119px) {
+  .mobile-only {
+    display: block;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+}
+
+@media (max-width:1119px) {
+  html.twl-loading body {
+    visibility: hidden
+  }
+}
+
+/* === 平板增强：768px–1119px，沿用 H5 结构与风格，但更铺满 === */
+@media (min-width:768px) and (max-width:1119px) {
+
+  html,
+  body {
+    height: 100%;
+  }
+
+  /* 首屏视频容器更充满屏幕，便于切到下一屏 */
+  .video-container {
+    height: min(80dvh, 600px);
+  }
+
+  .video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* 三大卡片：从手机的小卡片变为更宽的居中卡片或两列 */
+  .card-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+    padding: 0 24px;
+  }
+
+  .card-list .card {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 24px 20px;
+    background-size: 65% auto;
+  }
+
+  /* 背景图块更铺满 */
+  .scene-box {
+    background-size: cover;
+  }
+
+  .bg-img-1,
+  .bg-img-2,
+  .bg-img-3 {
+    background-size: 100% auto !important;
+  }
+
+  /* 产品与服务卡片容器更宽 */
+  .product-service .process-optimization {
+    width: 95%;
+    max-width: 1000px;
+    padding: 24px;
+    height: auto !important;
+  }
+
+  /* 移动端轮播容器在平板下更宽一些 */
+  .mobile-only .swiper-product,
+  .mobile-only .swiper-scene {
+    width: 85vw !important;
+  }
+
+  /* 文字与间距更舒展 */
+  .text {
+    font-size: 16px;
+  }
+
+  .card-list .card p {
+    font-size: clamp(18px, 2.4vw, 22px);
+  }
+}
