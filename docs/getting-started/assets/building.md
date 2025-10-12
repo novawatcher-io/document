@@ -1,3 +1,8 @@
+---
+title: "青岛星观信息网络-资产管理-工厂建筑管理"
+keywords: "工厂建筑管理解决方案, 青岛星观信息, 智能工厂管理"
+description: "专业的工厂建筑管理服务由青岛星观信息网络提供，量身定制解决方案，优化生产效率，提升建筑管理水平。"
+---
 # 建筑管理
 
 建筑管理,用来记录工厂固定建筑资产，流程的参与者提供一个清晰、易懂的指南，帮助他们理解从概念到交付的整个建筑生命周期。
@@ -7,7 +12,7 @@
 
 进入 资产管理 > 建筑管理,进入建筑管理列表，点击搜索可以根据建筑物名称、建筑物类型、建筑物状态搜索建筑物
 
-![search_building](/docs-assets/img/docs-assets/building/search_building.png)
+![search_building](/docs-assets/img/assets/building/search_building.png)
 
 ## 建筑表单
 
@@ -34,7 +39,7 @@
 进入 资产管理 > 建筑管理,进入建筑管理列表，点击新增，增加建筑物
 
 
-![add_building](/docs-assets/img/docs-assets/building/add_building.png)
+![add_building](/docs-assets/img/assets/building/add_building.png)
 
 ## 修改建筑
 
@@ -42,10 +47,10 @@
 进入 资产管理 > 建筑管理,进入建筑管理列表，点击新增，修改建筑物
 
 
-![update_building](/docs-assets/img/docs-assets/building/update_building.png)
+![update_building](/docs-assets/img/assets/building/update_building.png)
 
 ## 删除建筑
 
 进入 资产管理 > 建筑管理,进入建筑管理列表，点击删除，删除建筑物
 
-![delete_building](/docs-assets/img/docs-assets/building/delete_building.png)
+![delete_building](/docs-assets/img/assets/building/delete_building.png)

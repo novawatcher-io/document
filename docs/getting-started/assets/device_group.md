@@ -1,3 +1,8 @@
+---
+title: "青岛星观信息网络-资产管理-设备分组"
+keywords: "青岛星观信息网络, 智能设备分组, 高效信息管理"
+description: "青岛星观信息网络提供智能设备分组和高效信息管理解决方案，提升企业运营效率，助力数字化转型。"
+---
 # 设备分组
 
 物联网平台提供设备分组功能支持跨产品分类设备，您可以将设备按照一定的规则或特性（例如功能、地理位置等）进行划分，以便进行统一管理和控制，提高管理的效率和设备的利用率。
@@ -36,23 +41,23 @@
 
 在物联网控制台的左侧导航栏，选择资产管理 > 设备分组，单击搜索，可以根据分组名字，查询设备分组
 
-![search_device_group](/docs-assets/img/docs-assets/device_group/search_device_group.png)
+![search_device_group](/docs-assets/img/assets/device_group/search_device_group.png)
 
 ## 新增设备分组
 
 在物联网控制台的左侧导航栏，选择资产管理 > 设备分组，单击"新增"，添加一个设备分组，如下图所示:
 
 
-![add_device_group](/docs-assets/img/docs-assets/device_group/add_device_group.png)
+![add_device_group](/docs-assets/img/assets/device_group/add_device_group.png)
 
 ## 修改设备分组
 
 在物联网控制台的左侧导航栏，选择资产管理 > 设备分组，单击"新增"，修改一个设备分组，如下图所示:
 
-![update_device_group](/docs-assets/img/docs-assets/device_group/update_device_group.png)
+![update_device_group](/docs-assets/img/assets/device_group/update_device_group.png)
 
 ## 删除设备分组
 
 在物联网控制台的左侧导航栏，选择资产管理 > 设备分组，单击"删除"，删除一个设备分组，如下图所示:
 
-![delete_device_group](/docs-assets/img/docs-assets/device_group/delete_device_group.png)
+![delete_device_group](/docs-assets/img/assets/device_group/delete_device_group.png)

@@ -1,3 +1,8 @@
+---
+title: "青岛星观信息网络-资产管理-工业设备管理"
+keywords: "工业设备管理系统, 青岛星观信息, 智能管理平台"
+description: "青岛星观信息网络提供智能工业设备管理系统，通过数据赋能优化企业设备管理，让管理更高效、更简单。"
+---
 # 设备管理
 
 在物联网控制台的左侧导航栏，选择资产管理 > 设备管理，单击添加脱流机，为温湿度传感器添加一个设备，如下图所示。
@@ -6,14 +11,14 @@
 
 进入设备列表界面，搜索设备列表数据
 
-![search_device](/docs-assets/img/docs-assets/device/search_device.png)
+![search_device](/docs-assets/img/assets/device/search_device.png)
 
 
 ## 创建设备
 
 单击新增按钮添加设备。
 
-![add_device](/docs-assets/img/docs-assets/device/add_device.png)
+![add_device](/docs-assets/img/assets/device/add_device.png)
 
 
 填写表单:
@@ -35,16 +40,16 @@
 
 填写表单，保存数据，添加设备
 
-![add_device_form](/docs-assets/img/docs-assets/device/add_device_form.png)
+![add_device_form](/docs-assets/img/assets/device/add_device_form.png)
 
 ## 修改设备
 
 在设备管理中，点击修改设备
 
-![update_device](/docs-assets/img/docs-assets/device/update_device.png)
+![update_device](/docs-assets/img/assets/device/update_device.png)
 
 ## 删除设备
 
 在设备管理中，点击删除按钮，删除设备
 
-![delete_device](/docs-assets/img/docs-assets/device/delete_device.png)
+![delete_device](/docs-assets/img/assets/device/delete_device.png)
