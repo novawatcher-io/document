@@ -51,42 +51,96 @@ description: "青岛星观信息网络提供智能设备模板功能，设备模
 | 是否开启预测 | 选择数据 |	是否使用神经网络算法对数据趋势进行预测 |
 | 聚合函数 | 选择数据 |	设备管理数据趋势的聚合算法 |
 | 扰动变量 | 选择数据 |	使用神经网络算法结合干扰变量一起对结果进行预测 |
-| 注解 | 选择数据 |	如果是mqtt协议，需要设置注解 key |
+| 注解 | 选择数据 |	如果是mqtt协议，需要设置注解 gjson |
 
-设备模板的核心功能
+### 注解json读取公式
+
+gjson github 库地址:  https://github.com/tidwall/gjson
+
+
+#### 键路径
+
+键路径实际上是以.分隔的一系列键。gjson支持在键中包含通配符*和?，*匹配任意多个字符，?匹配单个字符，例如ca*可以匹配cat/cate/cake等以ca开头的键，ca?只能匹配cat/cap等以ca开头且后面只有一个字符的键。
+
+数组使用键名 + . + 索引（索引从 0 开始）的方式读取元素，如果键pets对应的值是一个数组，那么pets.0读取数组的第一个元素，pets.1读取第二个元素。
+
+数组长度使用**键名 + . + #**获取，例如pets.#返回数组pets的长度。
+
+如果键名中出现.，那么需要使用\进行转义。
+
+```
+{
+  "name": {"first": "Tom", "last": "Anderson"},
+  "age":37,
+  "children": ["Sara","Alex","Jack"],
+  "fav.movie": "Deer Hunter",
+  "friends": [
+    {"first": "Dale", "last": "Murphy", "age": 44, "nets": ["ig", "fb", "tw"]},
+    {"first": "Roger", "last": "Craig", "age": 68, "nets": ["fb", "tw"]},
+    {"first": "Jane", "last": "Murphy", "age": 47, "nets": ["ig", "tw"]}
+  ]
+}
+```
+
+
+```
+"name.last"          >> "Anderson"
+"age"                >> 37
+"children"           >> ["Sara","Alex","Jack"]
+"children.#"         >> 3
+"children.1"         >> "Alex"
+"child*.2"           >> "Jack"
+"c?ildren.0"         >> "Sara"
+"fav\.movie"         >> "Deer Hunter"
+"friends.#.first"    >> ["Dale","Roger","Jane"]
+"friends.1.last"     >> "Craig"
+```
+你也可以通过使用第一个匹配的数组进行查询#(...)或者找到所有 与#(...)#。查询支持==,!=,<,<=,>, >=比较运算符与简单的模式匹配%(喜欢) !%(不喜欢)操作员。
+
+```
+friends.#(last=="Murphy").first    >> "Dale"
+friends.#(last=="Murphy")#.first   >> ["Dale","Jane"]
+friends.#(age>45)#.last            >> ["Craig","Murphy"]
+friends.#(first%"D*").last         >> "Murphy"
+friends.#(first!%"D*").last        >> "Craig"
+friends.#(nets.#(=="fb"))#.first   >> ["Dale","Roger"]
+```
+
+
+## 设备模板的核心功能
 
 
 
-## 1. 预配置从机地址和寄存器地址 
+### 1. 预配置从机地址和寄存器地址 
 设备模板允许用户预设Modbus从机地址和寄存器地址，这大大减少了手动配置的复杂性和时间消耗，使得设备接入过程更加简单快捷。
 
-## 2. 批量读取预配置
+### 2. 批量读取预配置
 
 通过设备模板的批量读取功能，用户可以高效地获取所需数据，同时有效节省网络带宽，提高整体的数据处理效率。
 
-## 3. 快捷设备添加 
+### 3. 快捷设备添加 
 
 用户可以通过选择适当的设备模板，轻松添加新设备。这一过程简化了设备配置，缩短了部署时间。
 例如，若要添加建大仁科的壁挂王字壳485型温湿度传感器，用户只需在添加设备时选择相应的厂家和型号，系统便会自动完成温度和湿度寄存器的添加及其批量读设置。
 
-## 4. 模板共享和更新
+### 4. 模板共享和更新
 
 Modbus物联网平台支持设备模板的共享和更新。用户可以分享自己创建的模板，也可以使用其他用户分享的模板。当设备参数或协议有更新时，只需更新相应的设备模板，所有使用该模板的设备都会自动应用更新。
 
 设备模板的添加方式
-### 添加方式①：
+### 最佳实践①：
 已有设备的模板添加
 对于已经添加的设备，用户可以通过设备管理界面进入设备配置，选择已有的设备，然后通过“模版添加”功能，配置从机地址并自动添加寄存器表。
 
 ![add_device_template](/docs-assets/img/assets/device_template/add_device_template.png)
 
-### 修改设备模板
+#### 修改设备模板
 
 点击修改按钮，修改设备模板
 
 ![update_device_template](/docs-assets/img/assets/device_template/update_device_template.png)
 
-### 删除设备模板
+#### 删除设备模板
 
 点击删除按钮，删除设备模板
 
