@@ -53,6 +53,10 @@ description: "青岛星观信息网络提供智能设备模板功能，设备模
 | 扰动变量 | 选择数据 |	使用神经网络算法结合干扰变量一起对结果进行预测 |
 | 注解 | 选择数据 |	如果是mqtt协议，需要设置注解 expression |
 
+mqtt expression 案例
+
+
+
 ### 注解json读取公式
 
 gjson github 库地址:  https://github.com/tidwall/gjson
